@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import firebase_admin
 from firebase_admin import credentials, db
+import gunicorn
 
 # Initial flask app
 app = Flask(__name__)
